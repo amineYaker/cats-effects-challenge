@@ -16,7 +16,7 @@ object TransactionRow {
     TransactionRow(
       id = UUID.randomUUID(), // generate some id for our transaction
       orderId = state.orderId,
-      amount = state.filled,
+      amount = updated.filled - state.filled,
       createdAt = Instant.now()
     )
   }

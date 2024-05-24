@@ -48,3 +48,8 @@ Thumbs.db
 *.mov
 *.wmv
 
+#metals
+*.bloop
+*.metals
+*.vscode
+metals.sbt
